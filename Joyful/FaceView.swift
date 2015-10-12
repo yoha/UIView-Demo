@@ -32,10 +32,27 @@ class FaceView: UIView {
         return min(self.bounds.size.width, self.bounds.size.height) / 2 * self.scale
     }
     
+    // MARK: - Constants
+    
+    private struct Scaling {
+        static let FaceRadiusToEyeRadiusRatio: CGFloat = 10
+        static let FaceRadiusToEyeOffsetRatio: CGFloat = 3
+        static let FaceRadiusToEyeSeparationRatio: CGFloat = 1.5
+        static let FaceRadiusToMouthWidthRatio: CGFloat = 1
+        static let FaceRadiusToMouthHeightRatio: CGFloat = 3
+        static let FaceRadiusToMouthOffsetRatio: CGFloat = 3
+    }
+    
+    // MARK: - Methods Override
+    
     override func drawRect(rect: CGRect) {
         let facePath = UIBezierPath(arcCenter: faceCenter, radius: faceRadius, startAngle: 0, endAngle: CGFloat(2 * M_PI), clockwise: true)
         facePath.lineWidth = self.lineWidth
         self.color.set() // equivalent to self.color.setFill(); self.color.setStroke()
         facePath.stroke()
     }
+    
+    // MARK: - Local Methods
+    
+    
 }
