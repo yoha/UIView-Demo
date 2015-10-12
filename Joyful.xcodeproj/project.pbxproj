@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		65C2D1FE1BCBF3330025B1F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2D1FD1BCBF3330025B1F4 /* AppDelegate.swift */; };
-		65C2D2001BCBF3330025B1F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2D1FF1BCBF3330025B1F4 /* ViewController.swift */; };
 		65C2D2031BCBF3330025B1F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C2D2011BCBF3330025B1F4 /* Main.storyboard */; };
 		65C2D2051BCBF3330025B1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C2D2041BCBF3330025B1F4 /* Assets.xcassets */; };
 		65C2D2081BCBF3330025B1F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C2D2061BCBF3330025B1F4 /* LaunchScreen.storyboard */; };
+		65C2D2121BCBF4020025B1F4 /* JoyfulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2D2111BCBF4020025B1F4 /* JoyfulViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		65C2D2141BCBF5220025B1F4 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C2D2131BCBF5220025B1F4 /* FaceView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65C2D1FA1BCBF3330025B1F4 /* Joyful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joyful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C2D1FD1BCBF3330025B1F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C2D1FF1BCBF3330025B1F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65C2D2021BCBF3330025B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C2D2041BCBF3330025B1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C2D2071BCBF3330025B1F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C2D2091BCBF3330025B1F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C2D2111BCBF4020025B1F4 /* JoyfulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyfulViewController.swift; sourceTree = "<group>"; };
+		65C2D2131BCBF5220025B1F4 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				65C2D1FD1BCBF3330025B1F4 /* AppDelegate.swift */,
-				65C2D1FF1BCBF3330025B1F4 /* ViewController.swift */,
+				65C2D2111BCBF4020025B1F4 /* JoyfulViewController.swift */,
 				65C2D2011BCBF3330025B1F4 /* Main.storyboard */,
+				65C2D2131BCBF5220025B1F4 /* FaceView.swift */,
 				65C2D2041BCBF3330025B1F4 /* Assets.xcassets */,
 				65C2D2061BCBF3330025B1F4 /* LaunchScreen.storyboard */,
 				65C2D2091BCBF3330025B1F4 /* Info.plist */,
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C2D2001BCBF3330025B1F4 /* ViewController.swift in Sources */,
 				65C2D1FE1BCBF3330025B1F4 /* AppDelegate.swift in Sources */,
+				65C2D2121BCBF4020025B1F4 /* JoyfulViewController.swift in Sources */,
+				65C2D2141BCBF5220025B1F4 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
